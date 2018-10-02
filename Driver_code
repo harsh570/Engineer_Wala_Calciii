@@ -1,0 +1,21 @@
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+
+	public static void main(String[] CHAND) 
+	{
+		ScienceWalaCalci frame = new ScienceWalaCalci();
+		frame.setTitle("Scientific Calculator");
+		frame.setSize(350, 500);
+		frame.getContentPane().setBackground(windowColor);
+		frame.setLocationRelativeTo(null);
+		//frame.setMaximizedBounds(new Rectangle(300, 200));
+		frame.setResizable(false);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.setVisible(true);
+	}
+	
+
+
